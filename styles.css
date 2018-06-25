@@ -19,7 +19,10 @@ h2 {
 h2:first-of-type {
     margin-top: 0.5em;
 }
-
+.formText {
+    color:#fff; 
+    font-family: 'Spirax', cursive;
+}
 table,
 tr,
 td {
