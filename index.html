@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <!--bootstrap 3 Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+  <div class="container-fluid">
+        <h1>Lab: Pixel Art Maker</h1>
+
+        <h2>Choose Grid Size</h2>
+        <form id="sizePicker">
+            Grid Height:
+            <input type="number" id="inputHeight" name="height" min="1" value="1">
+            Grid Width:
+            <input type="number" id="inputWeight" name="width" min="1" value="1">
+            <input type="submit" class="btn btn-primary">
+        </form>
+    
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker">
+    
+        <h2>Design Canvas</h2>
+        <table id="pixelCanvas"></table>
+  </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+</html>
